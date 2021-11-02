@@ -1,0 +1,342 @@
+<html>
+
+<head>
+<title> Franquias </title>
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body{
+		background-color: #ddd;
+		font-family: 'Roboto Condensed';
+	}
+
+	.nav_tabs{
+		width: 1352px;
+		height: 1500px;
+		margin: 50px auto;
+		background-color: #fff;
+		position: relative;
+	}
+
+	.nav_tabs ul{
+		list-style: none;
+	}
+
+	.nav_tabs ul li{
+		float: left;
+	}
+
+	.tab_label{
+		display: block;
+		width: 288px;
+		background-color: #363b48;
+		padding: 25px;
+		font-size: 20px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+
+
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+	background-color: #e54e43;
+	color:#fff;}
+
+.tab-content{
+	border-top: solid 5px #e54e43;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: 320px;
+	width: 1352px;
+	left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+.tab-content h2{
+	padding: 10px;
+	color: #66ccff;
+	font-size: 50px;
+}
+.tab-content article{
+	padding: 10px 70px;
+	color: black;
+}
+
+.titulo {
+	text-align: center;
+}
+
+
+:root {
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 24px;
+  --space: 24px; 
+  --space-md: 32px;
+  --space-lg: 48px;
+  --space-xlg: 64px;
+
+  --screen-sm: 768px;
+
+  --gray: #66ccff;
+  --gray-dark: #66ccff;
+  --gray-darker: #66ccff;
+  --gray-light: #66ccff;
+  --gray-lighter: #66ccff;
+  --blue: #66ccff;
+  --yellow: ##66ccff;
+  --white: #66ccff;
+  --black: #66ccff;
+
+  --brand-primary: var(--black);
+  --background: var(--white);
+  --text-color: var(--black);
+}
+
+details {
+  summary {
+    list-style: none;
+  }
+}
+
+.collapse {
+  border: solid 1px var(--gray-lighter);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 950px;
+  transition: background-color 0.25s;
+  will-change: background-color;
+
+  &:first-child {
+    margin-top: var(--space);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: var(--space-sm);
+  }
+
+  &:hover {
+    background-color: var(--gray-lighter);
+
+    .title:after {
+      content: "🙂";
+    }
+  }
+
+  &[open] {
+    .title:after {
+      content: "😍";
+    }
+  }
+}
+
+.title {
+  cursor: pointer;
+  font-weight: 600;
+  padding: var(--space-sm);
+  position: relative;
+
+  &:after {
+    content: "😴";
+    position: absolute;
+    right: var(--space-sm);
+    transform: translatey(-50%);
+    top: 50%;
+  }
+}
+
+.description {
+  border-top: var(--gray-light) solid 1px;
+  font-size: 16px;
+  line-height: 21px;
+  padding: var(--space-sm);
+}
+
+
+body{
+	margin: 0;
+}
+
+.article {
+	text-align: center;
+	font-size: 22px;
+	font-color: black;
+}
+
+
+#menu ul{
+	margin: 0;
+	background-color: #363b48;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	padding: 10px 10px;
+	display: inline-block;
+	
+	color: white;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	color: white;
+}
+
+.grafico{
+	margin-left: 100px;
+}
+</style>
+</head>
+<body>
+	<div id= "menu" >
+		<ul>
+		<li><a href="inicio.html">Início</a></li>
+		<li><a href="#">Produtos</a></li>
+		<li><a href="#">Franquias</a></li>
+		<li><a href="#">Sobre</a></li>
+		</ul>
+	</div>
+	<nav class="nav_tabs">
+			<ul>
+				<li>
+					<input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
+					<label for="tab1" class="tab_label">Sobre</label>
+					<div class="tab-content">
+						<h2 style="text-align: center">Quem somos</h2>
+						<article class="article">
+							Somos uma empresa criada em 2012, com constante crescimento, prezando sempre pela qualidade dos produtos e bom atendimento ao cliente. Assim, conquistamos o primeiro lugar em vendas no ramo, em nossa região. 
+						</article>
+						<article class="article">
+							Nossa expansão no mercado é surpreendente. Em 2020, conseguimos duplicar o número de vendas do ano anterior, em razão da grande procura pelos nossos produtos e pela confiança que nossos clientes e visitantes têm em nossa empresa.
+						</article>
+						<article class="article">
+							Especialistas estimam que cresceremos mais 15% apenas neste ano. Somos uma empresa de sucesso.
+						</article>
+						<article class="article">
+							Faça parte do sucesso você também! Seja um de nossos franquados!
+						</article><br><br>
+						<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Ano', 'Vendas', 'Crescimento do lucro'],
+          ['2017', 360, 340 ],
+          ['2018', 480, 460],
+          ['2019', 532, 550],
+          ['2020', 1070, 1300]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'MTS Computadores',
+            subtitle: 'Vendas, crecimento de lucro: 2017-2020',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+					<div id="columnchart_material" style="width: 800px; height: 500px; margin-left: 380px; margin-right: auto;"></div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab2">
+					<label for="tab2" class="tab_label">Investimentos</label>
+					<div class="tab-content">
+						<h2 style="text-align: center">Confira as taxas e o investimento necessário!</h2>
+						<details class="collapse">
+							  <summary class="title">Taxas de franquia</summary>
+							  <div class="description"> A taxa de franquia para qualquer franquia da MTS Computadores é fixada em R$40.000</div>
+							</details>
+							<details class="collapse">
+							  <summary class="title">Royalties</summary>
+							  <div class="description"> Os royalties são de apenas 7% do lucro! </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title">Investimento total</summary>
+							  <div class="description"> O investimento total é estimado em R$240.000, dependendo da estrutura desejada e local. Esse investimento inclui a taxa de franquia, capital de giro e capital de instalação </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title">Faturamento médio mensal</summary>
+							  <div class="description"> O faturamento médio mensal é de R$60.000. Esse faturamento médio não conta com despesas de funcionários e terceiros, além dos royalties e possível aluguel. </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title">Previsão de retorno do investimento</summary>
+							  <div class="description"> A previsão de retorno do investimento total da franquia é de aproximadamente 12 meses!</div>
+							</details>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab3">
+					<label for="tab3" class="tab_label">Vantagens</label>
+					<div class="tab-content">
+						<h2 style="text-align: center"> Benefícios e vantagens de ser um de nossos franquados </h2>
+						<details class="collapse">
+							  <summary class="title">Segurança de um bom negócio</summary>
+							  <div class="description"> Sem dúvidas, a segurança de que seu negócio vai dar certo é um dos itens essencias para qualquer franqueado. Pensando nisso, colaboramos fornecendo informações, tais como: Localização ideal, informações de mercado atualizadas, período de maiores vendas e lucro mínimo estimado. </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title"> Baixa concorrência </summary>
+							  <div class="description"> A MTS Computadores possui baixíssima concorrência, permitindo maior lucro e maiores números de vendas. </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title">Retorno de investimento rápido</summary>
+							  <div class="description"> O investimento total é rapidamente recuperado. Dependendo do número de vendas, você pode retirar o valor de seu investimento em apenas 1 ano! </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title"> Mercado em ascensão </summary>
+							  <div class="description"> A procura por equipamentos e pelos nossos produtos é elevada, com tendência de aumentar ainda mais. O contexto em que estamos vivendo proporciona um excelente mercado consumidor. Isso significa que você poderá lucrar ainda mais no próximos meses. </div>
+							</details>
+							<details class="collapse">
+							  <summary class="title">Suporte ao franqueado</summary>
+							  <div class="description"> Como uma empresa consolidada, oferecemos amplo apoio e suporte aos nossos franquados. <br><br>
+							  Direito de uso da marca;<br>
+							  Apoio na montagem e inauguração da loja;<br>
+							  Auxílio na escolha do ponto comercial;<br>
+							  Auxílio de marketing;<br>
+							  Treinamento inicial;<br>
+							  Manuais de controle de montagem e qualidade;<br>
+							  Consultoria permanente.<br>						  
+							  </div>
+							</details>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab4">
+					<label for="tab4" class="tab_label">Contato</label>
+					<div class="tab-content">
+						<h2 style="text-align: center"> Contate-nos </h2>
+						<article class="article">
+							Está interessado? Por favor, contate-nos para maiores informações.<br><br>
+							E-mail: mtscomputadores@contato.com<br>
+							Telefone: (42)99837-2686					
+						</article>
+					</div>
+				</li>
+			</ul>
+		</nav>
+</body>
+</html>
