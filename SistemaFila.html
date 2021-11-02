@@ -1,0 +1,95 @@
+<html>
+
+<head>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: Arial;
+			font-size: 20px;
+			color: black;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: center;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+
+		.conteudo {
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.div {
+			text-align: center;
+		}
+	</style>
+	<title>
+		Sistema de pedidos
+	</title>
+</head>
+
+<body>
+	<div>
+		<ul>
+			<li><a class="active" href="#">Sistema de pedidos</a></li>
+		</ul>
+	</div><br><br>
+	<div class="div">
+		<p class="conteudo">Descrição do pedido</p>
+		<input type="text" id="descricao"><br><br>
+		<p class="conteudo">Nome do cliente</p>
+		<input type="text" id="nome"><br><br>
+		<input type="submit" onclick="salvar()" value="Salvar">
+		<input type="submit" onclick="excluir()" value="Excluir">
+		<br><br>
+		<p id="fila" class="conteudo"></p><br>
+		<p id="nome" class="conteudo"></p>		
+	</div>
+
+	<script>
+		var fila = [];
+		var nome = [];
+		function salvar() {
+			// descricao
+			var descricao = document.getElementById('descricao').value;
+			fila.push(descricao)
+			document.getElementById("fila").innerHTML = fila;
+			// nome
+			var nome = document.getElementById('nome').value;
+			nome.push(nome)
+			document.getElementById("nome").innerHTML = nome;
+		}
+		function excluir() {
+			// descricao
+			fila.shift();
+			document.getElementById("fila").innerHTML = fila;
+			// nome
+			nome.shift();
+			document.getElementById("nome").innerHTML = nome;
+		}
+	</script>
+</body>
+
+</html>
