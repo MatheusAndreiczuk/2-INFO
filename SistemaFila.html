@@ -1,95 +1,131 @@
 <html>
 
 <head>
-	<style>
-		* {
-			padding: 0;
-			margin: 0;
-			box-sizing: border-box;
-			font-family: Arial;
-			font-size: 20px;
-			color: black;
-		}
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 22px;
+            color: black;
+        }
 
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-		}
+        body {
+            background-color: #D3D3D3;
+            font-size: 1px;
+        }
 
-		li {
-			float: center;
-		}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
 
-		li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
+        li {
+            float: center;
+        }
 
-		li a:hover {
-			background-color: #111;
-		}
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
 
-		.conteudo {
-			display: flex;
-			justify-content: center;
+        li a:hover {
+            background-color: #111;
+        }
 
-		}
+        .conteudo {
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
 
-		.div {
-			text-align: center;
-		}
-	</style>
-	<title>
-		Sistema de pedidos
-	</title>
+        }
+
+        .prioridade {
+            display: flex;
+            justify-content: center;
+        }
+
+        .div {
+            text-align: center;
+        }
+
+        .botao {
+            padding: 4px;
+            background-color: #87CEEB;
+            font-weight: bold;
+        }
+
+        .textbox{
+            padding-left: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-right: 4px;
+        }
+
+    </style>
+    <title>
+        Sistema de pedidos
+    </title>
 </head>
 
 <body>
-	<div>
-		<ul>
-			<li><a class="active" href="#">Sistema de pedidos</a></li>
-		</ul>
-	</div><br><br>
-	<div class="div">
-		<p class="conteudo">Descrição do pedido</p>
-		<input type="text" id="descricao"><br><br>
-		<p class="conteudo">Nome do cliente</p>
-		<input type="text" id="nome"><br><br>
-		<input type="submit" onclick="salvar()" value="Salvar">
-		<input type="submit" onclick="excluir()" value="Excluir">
-		<br><br>
-		<p id="fila" class="conteudo"></p><br>
-		<p id="nome" class="conteudo"></p>		
-	</div>
+    <div>
+        <ul>
+            <li><a class="active" href="#">Sistema de pedidos</a></li>
+        </ul><br>
+    </div>
+    <div class="div">
+        <p class="conteudo">Descrição do pedido</p>
+        <input type="text" class="textbox" id="descricao"><br><br>
+        <p class="conteudo">Nome do cliente</p>
+        <input type="text" class="textbox" id="nome"><br><br>
+        <input type="submit" class="botao" onclick="salvar()" value="Salvar">
+        <input type="submit" class="botao" onclick="excluir()" value="Pedido finalizado">
+        <br><br>
+        <p class="conteudo">Pedido</p>
+        <P class="prioridade">Prioridade</p>
+        <p class="conteudo">← ← ← ←</p>
+        <article id="fila" class="conteudo"></article><br><br>
+        <p class="conteudo">Nome do cliente</p><br>
+        <p class="prioridade">Prioridade</p>
+        <p class="conteudo">← ← ← ←</p>
+        <article id="nomes" class="conteudo"></article>
 
-	<script>
-		var fila = [];
-		var nome = [];
-		function salvar() {
-			// descricao
-			var descricao = document.getElementById('descricao').value;
-			fila.push(descricao)
-			document.getElementById("fila").innerHTML = fila;
-			// nome
-			var nome = document.getElementById('nome').value;
-			nome.push(nome)
-			document.getElementById("nome").innerHTML = nome;
-		}
-		function excluir() {
-			// descricao
-			fila.shift();
-			document.getElementById("fila").innerHTML = fila;
-			// nome
-			nome.shift();
-			document.getElementById("nome").innerHTML = nome;
-		}
-	</script>
+    </div>
+
+    <script>
+        var fila = [];
+        var nome = [];
+        function salvar() {
+            // descricao
+            var descricao = "<br>" + document.getElementById('descricao').value;
+            fila.push(descricao)
+            document.getElementById("fila").innerHTML = fila;
+            // nome
+            var nomes = document.getElementById('nome').value;
+            nome.push(nomes);
+            document.getElementById("nomes").innerHTML = nome; 
+            // apaga text box
+            var descInput = document.getElementById("descricao").value = "";
+            var nameInput = document.getElementById("nome").value = "";
+        }
+
+        function excluir() {
+            // descricao
+            fila.shift();
+            document.getElementById("fila").innerHTML = fila;
+            // nome
+            nome.shift();
+            document.getElementById("nomes").innerHTML = nome;
+        }
+    </script>
 </body>
 
 </html>
