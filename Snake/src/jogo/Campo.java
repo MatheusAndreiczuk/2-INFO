@@ -26,17 +26,10 @@ public class Campo extends JPanel implements ActionListener {
     Fruta2 fruta2;
     Fruta2 fruta3;
     Fruta2 fruta4;
-    Fruta2 fruta5;
-    Fruta2 fruta6;
-    Fruta2 fruta7;
-    Fruta2 fruta8;
-    Fruta2 fruta9;
-    Fruta2 fruta10;
-    Fruta2 fruta11;
-    
+
     Cobra cobra;
     Cobra corpo[] = new Cobra[1000];
-    Cenario cenario[] = new Cenario[10];
+    Cenario cenario[] = new Cenario[12];
     int tamanhocenario = 4;
     int tamanho = 3;
     Timer t;
@@ -121,51 +114,13 @@ public class Campo extends JPanel implements ActionListener {
             add = 0;
             msg = "Game over";
         }
+
         if (verificaColisaoFruta2(fruta4, cobra)) {
             t.stop();
             add = 0;
             msg = "Game over";
         }
-        if (verificaColisaoFruta2(fruta5, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta2(fruta6, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta2(fruta7, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta2(fruta8, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta2(fruta9, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta2(fruta10, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta2(fruta11, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
-        if (verificaColisaoFruta(fruta, cobra)) {
-            t.stop();
-            add = 0;
-            msg = "Game over";
-        }
+
         if (verificaColisaoCorpo()) {
             t.stop();
             add = 0;
@@ -182,7 +137,7 @@ public class Campo extends JPanel implements ActionListener {
     private void posicionaFruta() {
         boolean ok = false;
         int x, y;
-        int a, b, c, d, e, f, g, h, j, k, l, m, n, o, p, q, r, s, t, u;
+        int a, b, c, d, e, f;
         while (!ok) {
             ok = true;
             x = new Random().nextInt(this.getWidth());
@@ -193,31 +148,10 @@ public class Campo extends JPanel implements ActionListener {
             d = new Random().nextInt(this.getHeight());
             e = new Random().nextInt(this.getHeight());
             f = new Random().nextInt(this.getHeight());
-            g = new Random().nextInt(this.getHeight());
-            h = new Random().nextInt(this.getHeight());
-            j = new Random().nextInt(this.getHeight());
-            k = new Random().nextInt(this.getHeight());
-            l = new Random().nextInt(this.getHeight());
-            m = new Random().nextInt(this.getHeight());
-            n = new Random().nextInt(this.getHeight());
-            o = new Random().nextInt(this.getHeight());
-            p = new Random().nextInt(this.getHeight());
-            q = new Random().nextInt(this.getHeight());
-            r = new Random().nextInt(this.getHeight());
-            s = new Random().nextInt(this.getHeight());
-            t = new Random().nextInt(this.getHeight());
-            u = new Random().nextInt(this.getHeight());
+            fruta = new Fruta(x, y);
             fruta2 = new Fruta2(a, b);
             fruta3 = new Fruta2(c, d);
             fruta4 = new Fruta2(e, f);
-            fruta5 = new Fruta2(g, h);
-            fruta6 = new Fruta2(j, k);
-            fruta7 = new Fruta2(l, m);
-            fruta8 = new Fruta2(n, o);
-            fruta9 = new Fruta2(p, q);
-            fruta10 = new Fruta2(r, s);
-            fruta11 = new Fruta2(t, u);
-            fruta = new Fruta(x, y);
             if (verificaColisaoFruta(fruta, cobra)) {
                 ok = false;
             }
@@ -227,14 +161,12 @@ public class Campo extends JPanel implements ActionListener {
                 }
             }
             for (int i = 0; i < tamanhocenario; i++) {
-                if (verificaColisaoFruta(fruta, fruta2, fruta3, fruta4, fruta5, fruta6, fruta7, fruta8, fruta9, fruta10, fruta11, cenario[i])) {
+                if (verificaColisaoFruta(fruta, fruta2, fruta3, fruta4, cenario[i])) {
                     ok = false;
                 }
             }
         }
     }
-    
-
 
     private void inicializa() {
         cobra = new Cobra(500, 400);
@@ -244,7 +176,7 @@ public class Campo extends JPanel implements ActionListener {
         corpo[2] = new Cobra(560, 400);
         msg = "";
         tamanho = 3;
-        cenario1();
+        cenario2();
         posicionaFruta();
     }
 
@@ -255,7 +187,7 @@ public class Campo extends JPanel implements ActionListener {
             return false;
         }
     }
-    
+
     private boolean verificaColisaoFruta2(Fruta2 c, Cobra r) {
         if (r.getLimites().intersects(c.getLimites())) {
             return true;
@@ -264,11 +196,8 @@ public class Campo extends JPanel implements ActionListener {
         }
     }
 
-    private boolean verificaColisaoFruta(Fruta b, Fruta2 c, Fruta2 d, Fruta2 e, Fruta2 f, Fruta2 g, Fruta2 h, Fruta2 i, Fruta2 j, Fruta2 k, Fruta2 l, Cenario r) {
-        if (r.getLimites().intersects(b.getLimites()) || r.getLimites().intersects(c.getLimites()) || r.getLimites().intersects(d.getLimites()) || r.getLimites().intersects(e.getLimites())
-                || r.getLimites().intersects(f.getLimites()) || r.getLimites().intersects(g.getLimites()) || r.getLimites().intersects(g.getLimites())
-                || r.getLimites().intersects(g.getLimites()) || r.getLimites().intersects(h.getLimites()) || r.getLimites().intersects(i.getLimites())
-                || r.getLimites().intersects(j.getLimites()) || r.getLimites().intersects(k.getLimites()) || r.getLimites().intersects(l.getLimites())) {
+    private boolean verificaColisaoFruta(Fruta b, Fruta2 c, Fruta2 d, Fruta2 e, Cenario r) {
+        if (r.getLimites().intersects(b.getLimites()) || r.getLimites().intersects(c.getLimites()) || r.getLimites().intersects(d.getLimites()) || r.getLimites().intersects(e.getLimites())) {
             return true;
         } else {
             return false;
@@ -306,32 +235,11 @@ public class Campo extends JPanel implements ActionListener {
         }
         g.drawImage(fruta.getImagem(), (int) fruta.getX(), (int) fruta.getY(), this);
         g.drawImage(fruta2.getImagem(), (int) fruta2.getX(), (int) fruta2.getY(), this);
-        if(add >= 1){
-             g.drawImage(fruta2.getImagem(), (int) fruta3.getX(), (int) fruta3.getY(), this);
+        if (add >= 1) {
+            g.drawImage(fruta2.getImagem(), (int) fruta3.getX(), (int) fruta3.getY(), this);
         }
-        if(add >= 2){
-             g.drawImage(fruta2.getImagem(), (int) fruta4.getX(), (int) fruta4.getY(), this);
-        }
-        if(add >= 3){
-             g.drawImage(fruta2.getImagem(), (int) fruta5.getX(), (int) fruta5.getY(), this);
-        }
-        if(add >= 4){
-             g.drawImage(fruta2.getImagem(), (int) fruta6.getX(), (int) fruta6.getY(), this);
-        }
-        if(add >= 5){
-             g.drawImage(fruta2.getImagem(), (int) fruta7.getX(), (int) fruta7.getY(), this);
-        }
-        if(add >= 6){
-             g.drawImage(fruta2.getImagem(), (int) fruta8.getX(), (int) fruta8.getY(), this);
-        }
-        if(add >= 7){
-             g.drawImage(fruta2.getImagem(), (int) fruta9.getX(), (int) fruta9.getY(), this);
-        }
-        if(add >= 8){
-             g.drawImage(fruta2.getImagem(), (int) fruta10.getX(), (int) fruta10.getY(), this);
-        }
-        if(add >= 9){
-             g.drawImage(fruta2.getImagem(), (int) fruta11.getX(), (int) fruta11.getY(), this);
+        if (add >= 4) {
+            g.drawImage(fruta2.getImagem(), (int) fruta4.getX(), (int) fruta4.getY(), this);
         }
         Font f = new Font("Arial", Font.BOLD, 20);
         g.setFont(f);
@@ -351,5 +259,21 @@ public class Campo extends JPanel implements ActionListener {
         cenario[4] = new Cenario(200, 100, 25, 500);
         cenario[5] = new Cenario(770, 100, 25, 500);
         tamanhocenario = 6;
+    }
+
+    private void cenario2() {
+        cenario[0] = new Cenario(0, 0, 25, 700);
+        cenario[1] = new Cenario(0, 0, 1000, 25);
+        cenario[2] = new Cenario(0, 680, 1000, 25);
+        cenario[3] = new Cenario(970, 0, 25, 700);
+        cenario[4] = new Cenario(200, 115, 21, 480);
+        cenario[5] = new Cenario(770, 115, 21, 480);
+        cenario[6] = new Cenario(690, 115, 21, 480);
+        cenario[7] = new Cenario(280, 115, 21, 480);
+        cenario[8] = new Cenario(610, 115, 21, 480);
+        cenario[9] = new Cenario(120, 115, 21, 480);
+        cenario[10] = new Cenario(307, 62, 300, 10);
+        cenario[11] = new Cenario(307, 632, 300, 10);
+        tamanhocenario = 12;
     }
 }
