@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Projetos">
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/java/bean/TelaLocalizaBean.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/web/index.xhtml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/java/vo/Aluno.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/web/aluno.xhtml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/web/listaResponsaveis.xhtml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/java/vo/Responsavel.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/java/persistencia/EntityManagerProvider.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/java/persistencia/AlunoDAO.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/conf/MANIFEST.MF</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/web/listaAlunos.xhtml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/web/responsavel.xhtml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaAlunoResponsavel/src/java/persistencia/ResponsavelDAO.java</file>
+        </group>
+    </open-files>
+</project-private>

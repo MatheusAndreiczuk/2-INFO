@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+    transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Cadastro de dependentes</title>
+    </h:head>
+    <h:body>
+        <h1 align="center">Cadastrar um novo dependente de #{projetoBean.socio.nome}</h1>
+        <h:form>
+            <p:outputLabel for="itId" value="Id"/>
+            <p:inputText  id="itId" value="#{projetoBean.dependente.id}" readonly="true"/><br/>
+            <p:outputLabel for="itNome" value="Nome"/>
+            <p:inputText  id="itNome" value="#{projetoBean.dependente.nome}" /><br/>
+            <p:outputLabel for="itIdade" value="Idade"/>
+            <p:inputText  id="itIdade" value="#{projetoBean.dependente.idade}"/><br/>
+            <p:outputLabel for="itIdSocio" value="Id Sócio"/>
+            <p:inputText  id="itIdSocio" value="#{projetoBean.dependente.idSocio}" readonly="true"/><br/>
+            <p:outputLabel for="itIdSocio" value="Nome do sócio"/>
+            <p:inputText  id="itNomeSocio" value="#{projetoBean.socio.nome}" readonly="true"/><br/><br/>
+            <p:commandButton icon="ui-icon-disk" ajax="false" action="#{projetoBean.salvaDependente()}"/>
+        </h:form>
+        <h:form>
+            <p:commandButton icon="ui-icon-arrowreturnthick-1-w" action="dependente"/>
+        </h:form>
+    </h:body>
+</html>

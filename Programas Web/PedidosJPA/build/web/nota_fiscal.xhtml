@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Menu</title>
+    </h:head>
+    <h:body style="background-color: #cccccc;">
+        <p:fieldset style="width: 400px; height: 200px; text-align: center;">
+           
+            <p:outputLabel style="font-size: 14pt;" value="Nome da empresa" />
+            <br/>
+            <p:outputLabel style="font-size: 14pt;" value="CNPJ: **.***.***/****-**" />
+            <br/><br/>
+            <p:outputLabel style="font-size: 14pt;" value="Cliente: #{telaLocalizaBean.cliente.nome}" />
+            <br/>
+            <p:outputLabel style="font-size: 14pt;" value="CPF: #{telaLocalizaBean.cliente.cpf}" />
+            <br/>
+            <p:outputLabel style="font-size: 14pt;" value="Produto: #{telaLocalizaBean.produto.descricao}" />
+            <br/>
+            <p:outputLabel style="font-size: 14pt;" value="Quantidade: #{telaLocalizaBean.pedido.qtdPedido}" />
+            <br/>
+        </p:fieldset>
+        <br/>
+        <h:form>
+            <p:commandButton icon="ui-icon-arrowthick-1-w" action="pedido" ajax="false"/>
+        </h:form>
+    </h:body>
+</html>
