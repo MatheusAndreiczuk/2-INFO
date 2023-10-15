@@ -1,0 +1,15 @@
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.Form1.resources
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.Resources.resources
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\bin\Debug\BdUsuario.exe.config
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\bin\Debug\BdUsuario.exe
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\bin\Debug\BdUsuario.pdb
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\bin\Debug\BdUsuario.xml
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\bin\Debug\MySql.Data.dll
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\bin\Debug\MySql.Data.xml
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.vbproj.CopyComplete
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.exe
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.xml
+C:\Users\mathe\source\repos\BdUsuario\BdUsuario\obj\Debug\BdUsuario.pdb

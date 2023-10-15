@@ -1,0 +1,15 @@
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.vbproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.Form1.resources
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.AssemblyInfo.vb
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\bin\Debug\netcoreapp3.1\SistemaFila.exe
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\bin\Debug\netcoreapp3.1\SistemaFila.deps.json
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\bin\Debug\netcoreapp3.1\SistemaFila.runtimeconfig.json
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\bin\Debug\netcoreapp3.1\SistemaFila.runtimeconfig.dev.json
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\bin\Debug\netcoreapp3.1\SistemaFila.dll
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\bin\Debug\netcoreapp3.1\SistemaFila.pdb
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.dll
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.pdb
+C:\Users\mathe\source\repos\SistemaFila\SistemaFila\obj\Debug\netcoreapp3.1\SistemaFila.genruntimeconfig.cache

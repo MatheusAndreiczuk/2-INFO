@@ -1,0 +1,16 @@
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\bin\Debug\ProjetoPeçaGrid.exe.config
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\bin\Debug\ProjetoPeçaGrid.exe
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\bin\Debug\ProjetoPeçaGrid.pdb
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\bin\Debug\ProjetoPeçaGrid.xml
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\bin\Debug\MySql.Data.dll
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\bin\Debug\MySql.Data.xml
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.Form1.resources
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.Form2.resources
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.Resources.resources
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.vbproj.CopyComplete
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.exe
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.xml
+C:\Users\mathe\source\repos\ProjetoPeçaGrid\ProjetoPeçaGrid\obj\Debug\ProjetoPeçaGrid.pdb

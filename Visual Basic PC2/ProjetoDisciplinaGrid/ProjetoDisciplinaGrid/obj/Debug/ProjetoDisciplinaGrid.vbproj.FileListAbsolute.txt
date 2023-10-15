@@ -1,0 +1,16 @@
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.Form1.resources
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.Form2.resources
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.Resources.resources
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\bin\Debug\ProjetoDisciplinaGrid.exe.config
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\bin\Debug\ProjetoDisciplinaGrid.exe
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\bin\Debug\ProjetoDisciplinaGrid.pdb
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\bin\Debug\ProjetoDisciplinaGrid.xml
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\bin\Debug\MySql.Data.dll
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\bin\Debug\MySql.Data.xml
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.vbproj.CopyComplete
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.exe
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.xml
+C:\Users\mathe\source\repos\ProjetoDisciplinaGrid\ProjetoDisciplinaGrid\obj\Debug\ProjetoDisciplinaGrid.pdb

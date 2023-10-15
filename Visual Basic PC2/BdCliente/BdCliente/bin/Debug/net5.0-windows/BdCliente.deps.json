@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BdCliente/1.0.0": {
+        "dependencies": {
+          "MySql.Data": "6.10.9.0",
+          "MySql.Web": "6.10.9.0"
+        },
+        "runtime": {
+          "BdCliente.dll": {}
+        }
+      },
+      "MySql.Data/6.10.9.0": {
+        "runtime": {
+          "MySql.Data.dll": {
+            "assemblyVersion": "6.10.9.0",
+            "fileVersion": "6.10.9.0"
+          }
+        }
+      },
+      "MySql.Web/6.10.9.0": {
+        "runtime": {
+          "MySql.Web.dll": {
+            "assemblyVersion": "6.10.9.0",
+            "fileVersion": "6.10.9.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BdCliente/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data/6.10.9.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Web/6.10.9.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

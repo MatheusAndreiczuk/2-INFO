@@ -1,0 +1,16 @@
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\PositMedia.exe
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\PositMedia.deps.json
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\PositMedia.runtimeconfig.json
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\PositMedia.runtimeconfig.dev.json
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\PositMedia.dll
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\ref\PositMedia.dll
+C:\Users\mathe\source\repos\PositMedia\PositMedia\bin\Debug\net5.0\PositMedia.pdb
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.csprojAssemblyReference.cache
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.AssemblyInfo.cs
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.dll
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\ref\PositMedia.dll
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.pdb
+C:\Users\mathe\source\repos\PositMedia\PositMedia\obj\Debug\net5.0\PositMedia.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\bin\Debug\ProjetoAlunoGrid.exe.config
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\bin\Debug\ProjetoAlunoGrid.exe
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\bin\Debug\ProjetoAlunoGrid.pdb
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\bin\Debug\ProjetoAlunoGrid.xml
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\bin\Debug\MySql.Data.dll
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\bin\Debug\MySql.Data.xml
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.Form1.resources
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.Form2.resources
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.Resources.resources
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.vbproj.CopyComplete
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.exe
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.xml
+C:\Users\mathe\source\repos\ProjetoAlunoGrid\ProjetoAlunoGrid\obj\Debug\ProjetoAlunoGrid.pdb

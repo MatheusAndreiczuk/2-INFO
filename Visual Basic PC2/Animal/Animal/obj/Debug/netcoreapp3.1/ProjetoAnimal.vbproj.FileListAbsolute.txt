@@ -1,0 +1,15 @@
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\Animal.Form1.resources
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.AssemblyInfo.vb
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Animal\Animal\bin\Debug\netcoreapp3.1\ProjetoAnimal.exe
+C:\Users\mathe\source\repos\Animal\Animal\bin\Debug\netcoreapp3.1\ProjetoAnimal.deps.json
+C:\Users\mathe\source\repos\Animal\Animal\bin\Debug\netcoreapp3.1\ProjetoAnimal.runtimeconfig.json
+C:\Users\mathe\source\repos\Animal\Animal\bin\Debug\netcoreapp3.1\ProjetoAnimal.runtimeconfig.dev.json
+C:\Users\mathe\source\repos\Animal\Animal\bin\Debug\netcoreapp3.1\ProjetoAnimal.dll
+C:\Users\mathe\source\repos\Animal\Animal\bin\Debug\netcoreapp3.1\ProjetoAnimal.pdb
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.dll
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.pdb
+C:\Users\mathe\source\repos\Animal\Animal\obj\Debug\netcoreapp3.1\ProjetoAnimal.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.Form1.resources
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.Form2.resources
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.Resources.resources
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\bin\Debug\ProjetoEquipamentoGrid.exe.config
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\bin\Debug\ProjetoEquipamentoGrid.exe
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\bin\Debug\ProjetoEquipamentoGrid.pdb
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\bin\Debug\ProjetoEquipamentoGrid.xml
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\bin\Debug\MySql.Data.dll
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\bin\Debug\MySql.Data.xml
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.vbproj.CopyComplete
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.exe
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.xml
+C:\Users\mathe\source\repos\ProjetoEquipamentoGrid\ProjetoEquipamentoGrid\obj\Debug\ProjetoEquipamentoGrid.pdb

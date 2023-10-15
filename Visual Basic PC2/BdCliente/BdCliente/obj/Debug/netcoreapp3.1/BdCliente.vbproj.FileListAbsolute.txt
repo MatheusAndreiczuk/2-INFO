@@ -1,0 +1,6 @@
+C:\Users\mathe\source\repos\BdCliente\BdCliente\obj\Debug\netcoreapp3.1\BdCliente.vbprojAssemblyReference.cache
+C:\Users\mathe\source\repos\BdCliente\BdCliente\obj\Debug\netcoreapp3.1\BdCliente.Form1.resources
+C:\Users\mathe\source\repos\BdCliente\BdCliente\obj\Debug\netcoreapp3.1\BdCliente.vbproj.GenerateResource.cache
+C:\Users\mathe\source\repos\BdCliente\BdCliente\obj\Debug\netcoreapp3.1\BdCliente.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\BdCliente\BdCliente\obj\Debug\netcoreapp3.1\BdCliente.AssemblyInfo.vb
+C:\Users\mathe\source\repos\BdCliente\BdCliente\obj\Debug\netcoreapp3.1\BdCliente.vbproj.CoreCompileInputs.cache
